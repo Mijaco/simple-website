@@ -247,10 +247,10 @@ hr {
 #menu ul{height:35px}
 #menu li{float:left;display:inline;position:relative;font:bold 20px Arial;}
 #menu li .color-no-logo{color:#233b44}
-#menu .color-no-logo{display:block;line-height:35px;padding:10px 14px;text-decoration:none;color:#333;}
+#menu .color-no-logo{display:block;line-height:35px;padding:10px 14px;text-decoration:none;color:#333;font-family: Brush Script MT, Brush Script Std, cursive; font-size: 30px}
 
 
-#menu .color-logo{display:block;line-height:35px;padding:10px 14px;text-decoration:none;color:#fb6675;font-family: Brush Script MT, Brush Script Std, cursive; font-size: 30px;}
+#menu .color-logo{display:block;line-height:35px;padding:10px 14px;text-decoration:none;color:#fb6675;font-family: Brush Script MT, Brush Script Std, cursive; font-size: 40px;}
 
 
 #menu li:hover > a,#menu li a:hover{color:#fb6675}
@@ -270,7 +270,7 @@ hr {
 
 @media screen and (max-width: 768px){
 #menu{position:relative}
-#menu ul{background:#838383;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none;}
+#menu ul{background:#fb6675;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none;}
 #menu ul.menus{width:100%;position:static;border:none}
 #menu li{display:block;float:none;width:auto;text-align:left}
 #menu li a{color:#fff}
@@ -279,7 +279,7 @@ hr {
 #menu li:hover > a.prett,#menu a.prett:hover{background:#BABABA;color:#333;}
 #menu ul.menus a{background:#BABABA;}
 #menu ul.menus a:hover{background:#fff;}
-#menu input,#menu label{position:absolute;top:0;left:0;display:block}
+#menu input,#menu label{position:absolute;top:5px;left:0;display:block}
 #menu input{z-index:4}
 #menu input:checked + label{color:white}
 #menu input:checked ~ ul{display:block}
@@ -288,10 +288,11 @@ hr {
     background: #fff;
     color: #5f5959;
     height: 50px;
-    padding-top: 10px;
+    padding-top: 2px;
 }
-#menu .color-logo-mobile{color:#fb6675;font-family: Brush Script MT, Brush Script Std, cursive; font-size: 30px;}
+#menu .color-logo-mobile{color:#fb6675;font-family: Brush Script MT, Brush Script Std, cursive; font-size: 35px;}
 
+.logo-mobile{padding-top:8px;}
 
 }
 
