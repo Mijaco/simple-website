@@ -1,5 +1,7 @@
 
-let tulipanes = [
+$(document).ready(function(){
+
+var tulipanes = [
   {
     "descripcion": "Colorido bouquet de 12 gerberas surtidas. Ideal para regalar en Cumpleaños o Aniversarios.",
     "titulo": "minivan",
@@ -60,12 +62,6 @@ let rosas = [
   }
 ]
 
-
-
-
-$(document).ready(function(){
-
-	console.log("hello")
 
 $( ".color-no-logo" ).each(function( index ) {
   console.log( index + ": " + $( this ).text() );
