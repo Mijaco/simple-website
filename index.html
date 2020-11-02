@@ -21,24 +21,15 @@
     <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
 
 
-  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+   <!--  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'> -->
   <link rel='stylesheet' href='css/bootstrap-min-compressed.css'>
-  <link rel="stylesheet" href="./style.css">
-  <script src="js/jquery-3.3.1-slim-compressed.js" ></script>
+  <link rel="stylesheet" href="css/style.css">
 
- <!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script> -->
-
-  <script src="js/script.js" ></script>
 
  
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<!--
-Inspired in this dribbble
-https://dribbble.com/shots/986548-Product-Catalog
--->
 
 
 
@@ -49,7 +40,7 @@ https://dribbble.com/shots/986548-Product-Catalog
 
 <div class="mobile">
 	<div id="check" class="col-sm-2 col-md-2 col-xs-2"><label>&#8801;</label></div>
-	<div class="col-sm-2 col-xs-2 logo-mobile"> <img src="img/ico-3.png" width="30" height="30" alt=""></div>
+	<div class="col-sm-2 col-xs-2 logo-mobile"> <img src="img/logo.png" width="30" height="30" alt=""></div>
 	<div class="col-sm-8 col-xs-8 color-logo-mobile">Rosalima</div>
 </div>
 
@@ -57,7 +48,7 @@ https://dribbble.com/shots/986548-Product-Catalog
 <ul class="pull-left">
 
 <li><a class="navbar-brand" href="#">
-     <img src="img/ico-3.png" width="30" height="30" alt="">
+     <img src="img/logo.png" width="30" height="30" alt="">
     </a>
 </li>
 <li class="color-logo">Rosalima</li>
@@ -309,4 +300,29 @@ https://dribbble.com/shots/986548-Product-Catalog
 <!-- partial -->
   
 </body>
+
+  <script src="js/jquery-3.3.1-slim-compressed.js" ></script>
+
+ <!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script> -->
+
+  <script src="js/script.js" ></script>
+
+<script type="text/javascript">
+function parseJSAtOnload() {
+var links = ["js/jquery-3.3.1-slim-compressed.js", "js/script.js"],
+headElement = document.getElementsByTagName("head")[0],
+linkElement, i;
+for (i = 0; i < links.length; i++) {
+linkElement = document.createElement("script");
+linkElement.src = links[i];
+headElement.appendChild(linkElement);
+}
+}
+if (window.addEventListener)
+window.addEventListener("load", parseJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", parseJSAtOnload);
+else window.onload = parseJSAtOnload;
+</script >  
+
 </html>
