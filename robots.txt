@@ -1,4 +1,4 @@
 Agente de usuario: Googlebot-Image
 Disallow: 
 
-Sitemap: https://www.example.com/sitemap.xml
+Sitemap: https://www.floreslima.delivery/sitemap.xml
