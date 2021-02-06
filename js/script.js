@@ -178,6 +178,6 @@ $("#menu input").prop('checked',false)
 
 
 
-  pintarCatalogo(condolencias)
+  //pintarCatalogo(condolencias)
 
 });
